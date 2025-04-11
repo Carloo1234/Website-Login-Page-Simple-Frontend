@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f7f9;
+}
+
+.container{
+    padding: 60px 35px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #dfe1e3;
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: #313239;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: #a09fa2;
+    font-size: 12px;
+}
+
+.enter-details{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid #e0e2e2;
+    border-radius: 6px;
+    color: #313239;
+}
+
+.input-box input:focus{
+    outline: none;
+    border: 2px solid #bababa;
+}
+
+input::placeholder{
+    color: #a09fa2;
+}
+
+.remember-forget-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;  
+    gap: 5px;
+}
+  
+.remember-forget-box label, a{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #707070;
+}
+
+a{
+    color: #3a7ff9;
+}
+
+.signup-btn input, .google-btn button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    border-width: 0px;
+    background-color: #3a7ff9;
+    color: white;
+    font-size: 13px;
+    transition-duration: 0.35s;
+
+}
+
+i{
+    font-size: 18px;
+    color: #313239;
+}
+
+.google-btn button{
+    background-color: transparent;
+    color: #313239;
+    border: 2px solid #e0e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.google-btn button:hover{
+    cursor: pointer;
+    background-color: #e0e2e2;
+}
+
+.signup-btn input:hover{
+    cursor: pointer;
+    background-color: #3a80f9a5;
+    
+
+}
+
+.google-btn button:active{
+    background-color: #c6c6c6;
+    border-color: #c6c6c6;
+}
+
+.signup-btn input:active{
+    background-color: #3a80f977;
+    
+
+}
